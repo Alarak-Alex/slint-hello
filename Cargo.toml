@@ -1,0 +1,14 @@
+[package]
+name = "slint-rust-template"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.10.0"
+# slint = { version = "1.10.0", default-features = false, features = ["backend-qt", "std","compat-1-2"] }
+# i-slint-backend-qt = "1.10.0"
+
+[build-dependencies]
+slint-build = "1.10.0"
